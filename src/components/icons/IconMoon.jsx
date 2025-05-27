@@ -1,7 +1,7 @@
 //rest operator ...props
 //destructuring props
 
-const MoonIcon = ({ ...props }) => {
+const IconMoon = ({ ...props }) => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
             <path
@@ -14,4 +14,4 @@ const MoonIcon = ({ ...props }) => {
     );
 };
 
-export default MoonIcon;
+export default IconMoon;
